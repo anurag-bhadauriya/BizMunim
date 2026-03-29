@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from '../contexts/LanguageContext';
 import { Globe, Menu, X } from 'lucide-react';
+import logo from '../assets/logo.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -28,7 +29,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container nav-container">
         <div className="logo" onClick={() => scrollToSection('home')}>
-          <img src="/logo.png" alt="BIZMUNIM Logo" className="brand-logo" />
+          <img src={logo} alt="BIZMUNIM Logo" className="brand-logo" />
           <span className="logo-text">BIZMUNIM</span>
         </div>
 

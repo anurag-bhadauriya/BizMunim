@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from '../contexts/LanguageContext';
+import logo from '../assets/logo.png';
 import './Footer.css';
 
 const InstagramIcon = ({ size = 20 }) => (
@@ -22,7 +23,7 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-brand">
           <div className="footer-logo">
-            <img src="/logo.png" alt="BIZMUNIM Logo" className="footer-brand-logo" />
+            <img src={logo} alt="BIZMUNIM Logo" className="footer-brand-logo" />
             <span>BIZMUNIM</span>
           </div>
           <p className="footer-desc">{t('footer.description')}</p>
