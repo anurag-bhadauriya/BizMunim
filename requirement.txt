@@ -1,0 +1,20 @@
+1. Business Context & Identity:
+
+Firm Name: BIZMUNIM ASSOCIATES AND PARTNERS.
+Leadership: The site is explicitly branded as "Found and Managed by CS Sourav Singh" (Company Secretary), emphasizing professional credibility.
+Track Record: The site showcases statistics indicating the firm has been running since 2018 (8+ years of experience), serving 500+ clients across 15+ states with a 99.9% success rate.
+
+2. Services Offered: The website is structured as a comprehensive legal/financial portal covering:
+
+Business Incorporation: (Private Limited, LLP, One Person Company, etc.)
+Taxation & Finance: (Income Tax, GST, Auditing, Intelligent Tax Planning)
+Intellectual Property: (Trademark and Patent Registration)
+Annual Compliance: (ROC Filings, Secretarial Audits)
+Strategic Advisory: (Including Corporate Restructuring and multi-state Virtual Place of Business setups)
+
+3. Design & Technical Stack:
+
+Aesthetic: A high-end corporate style utilizing a blue and gold color palette.
+Tech Stack: React.js( Single Page application )
+Multi Language suport: All static text should be in picked up from the json files which are should be kept in assets folder.
+Single Page application: On clicking on option it should scroll to that section.

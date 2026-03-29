@@ -1,0 +1,85 @@
+.stats-section {
+  background: linear-gradient(to right, var(--color-primary-dark), #0a1f3a);
+  color: white;
+  padding: 6rem 0;
+  position: relative;
+}
+
+.stats-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.stats-title {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.stats-subtitle {
+  color: var(--color-accent);
+  font-size: 1.1rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 2rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-card:last-child {
+  border-right: none;
+}
+
+.stat-value {
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .stat-card:nth-child(2) {
+    border-right: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .stats-section {
+    padding: 4rem 0;
+  }
+  .stats-title {
+    font-size: 2rem;
+  }
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  .stat-card {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem 0;
+  }
+  .stat-card:last-child {
+    border-bottom: none;
+  }
+  .stat-value {
+    font-size: 2.5rem;
+  }
+}

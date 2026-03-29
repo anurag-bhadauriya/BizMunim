@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "stats": "Our Track Record",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "BIZMUNIM ASSOCIATES AND PARTNERS",
+    "subtitle": "Found and Managed by CS Sourav Singh",
+    "description": "Providing comprehensive legal, financial, and strategic advisory services with a commitment to excellence.",
+    "cta_primary": "Consult With Us",
+    "cta_secondary": "Our Services"
+  },
+  "services": {
+    "title": "Our Expertise",
+    "subtitle": "Comprehensive professional services tailored for your business growth",
+    "incorporation": {
+      "title": "Business Incorporation",
+      "desc": "Seamless registration for Private Limited, LLP, One Person Company, and more."
+    },
+    "taxation": {
+      "title": "Taxation & Finance",
+      "desc": "Expert handling of Income Tax, GST, Auditing, and Intelligent Tax Planning."
+    },
+    "ip": {
+      "title": "Intellectual Property",
+      "desc": "Protect your brand with Trademark and Patent Registration."
+    },
+    "compliance": {
+      "title": "Annual Compliance",
+      "desc": "Ensuring corporate governance with ROC Filings and Secretarial Audits."
+    },
+    "advisory": {
+      "title": "Strategic Advisory",
+      "desc": "Guidance on Corporate Restructuring and multi-state Virtual Place of Business setups."
+    }
+  },
+  "stats": {
+    "title": "Proven Track Record",
+    "subtitle": "Delivering excellence across India since 2018",
+    "years": "Years of Experience",
+    "clients": "Happy Clients",
+    "states": "States Served",
+    "success": "Success Rate"
+  },
+  "footer": {
+    "description": "Your trusted partner in legal and financial compliance. Expert advisory with a 99.9% success rate.",
+    "quick_links": "Quick Links",
+    "contact_us": "Contact Us",
+    "rights": "© 2026 BIZMUNIM ASSOCIATES AND PARTNERS. All rights reserved."
+  }
+}
